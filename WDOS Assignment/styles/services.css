@@ -1,0 +1,95 @@
+.intro-services {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro-services p {
+    background-color: #2a92994e;
+    font-size: 16px;
+    color: #115a5a;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: auto;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(13, 97, 123, 0.529);
+    padding: 15px;
+}
+
+.intro-services h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgba(23, 81, 122, 0.915);
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-item {
+    flex: 0 1 calc(25% - 20px);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(4, 87, 100, 0.451);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.service-item h3 {
+    margin: 15px 0;
+    padding: 0 10px;
+    color: #008080;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.patient-registration {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.register-button {
+    background-color: #008080;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.register-button:hover {
+    background-color: #006666;
+}
+
+
+@media (max-width: 768px) {
+    .services-grid {
+        justify-content: space-around;
+        gap: 40px;
+    }
+    
+    .service-item {
+        flex: 0 5 calc(100% - 20px);
+    }
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .service-item {
+        flex: 0 1 calc(33.33% - 20px); /* Three items per row */
+    }
+}

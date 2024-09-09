@@ -1,0 +1,23 @@
+
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    padding: 10px; 
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-description {
+    text-align: center;
+    font-size: 18px;
+    color: #030d22;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    line-height: 1.5;
+    background-color: rgba(3, 193, 174, 0.413);
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgba(1, 65, 59, 0.413);
+}

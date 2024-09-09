@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation</title>
+    <link rel="stylesheet" href="styles/consultation.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/header-footer.css"
+</head>
+<body>
+    <header>
+        <div class="logo-nav">
+            <img src="images/logo2.png" alt="Lycasian Health Centre Logo" class="logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="consultation.html">Consultation</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main>
+        <h2>Book a consultation today!</h2>
+        <p class="form-description">Fill out the form below to book your consultation with our experienced doctors. Choose your preferred date, time, and consultation method.</p>
+
+        <form>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time">
+
+            <label for="doctor">Doctor Selection:</label>
+            <select id="doctor" name="doctor">
+                <option value="doctor1">Doctor 1</option>
+                <option value="doctor2">Doctor 2</option>
+                <option value="doctor3">Doctor 3</option>
+            </select>
+
+            <label for="consultation-type">Consultation type:</label>
+            <select id="consultation-type" name="consultation-type">
+                <option value="online">Online</option>
+                <option value="in-person">In-person</option>
+            </select>
+
+            <label for="notes">Additional notes:</label>
+            <textarea id="notes" name="notes"></textarea>
+
+            <div class="form-buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-nav">
+            <button>&larr;</button> 
+            <button>&rarr;</button>
+        </div>
+        <div class="footer-text">
+            © 2024 LHC. All rights reserved
+        </div>
+        <div class="footer-home">
+            <button>&#8962;</button> 
+        </div>
+    </footer>
+</body>
+</html>

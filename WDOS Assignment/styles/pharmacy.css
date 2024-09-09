@@ -1,0 +1,70 @@
+input[type="number"],
+input[type="radio"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.radio-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    margin-right: 20px;
+}
+
+footer {
+    margin-top: 210px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="radio"] {
+        padding: 12px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .radio-group {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .radio-group label {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="radio"] {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .radio-group {
+        flex-direction: column;
+    }
+
+    .radio-group label {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+
+}
+
