@@ -1,0 +1,226 @@
+[
+  {
+    "category": "analgesics",
+    "id": "analgesic1",
+    "name": "Paracetamol",
+    "price": 5,
+    "desc": "Used for pain relief and fever reduction, inflammation control and minor aches",
+    "img": "images/Medicines/Paracetemol.jpg"
+  },
+  {
+    "category": "analgesics",
+    "id": "analgesic2",
+    "name": "Ibuprofen",
+    "price": 7,
+    "desc": "Non-steroidal anti-inflammatory drug for pain and inflammation.",
+    "img": "images/Medicines/Ibuprofen.jpg"
+  },
+  {
+    "category": "analgesics",
+    "id": "analgesic3",
+    "name": "Aspirin",
+    "price": 6,
+    "desc": "Relieves pain, reduces fever, and prevents blood clots.",
+    "img": "images/Medicines/Aspirin.jpg"
+  },
+  {
+    "category": "analgesics",
+    "id": "analgesic4",
+    "name": "Diclofenac",
+    "price": 10,
+    "desc": "Reduces pain, swelling, joint stiffness and inflammation effectively",
+    "img": "images/Medicines/Voltaren.jpg"
+  },
+  {
+    "category": "analgesics",
+    "id": "analgesic5",
+    "name": "Codeine",
+    "price": 12,
+    "desc": "Mild to moderate pain relief, coughing suppression and diarrhea management.",
+    "img": "images/Medicines/Codeine.jpg"
+  },
+  {
+    "category": "analgesics",
+    "id": "analgesic6",
+    "name": "Tramadol",
+    "price": 15,
+    "desc": "Relieves moderate to severe pain.",
+    "img": "images/Medicines/Tramadol.jpg"
+  },
+  {
+    "category": "antibiotics",
+    "id": "antibiotic1",
+    "name": "Amoxicillin",
+    "price": 8,
+    "desc": "Used to treat bacterial infections.",
+    "img": "images/Medicines/Amoxicilin.jpg"
+  },
+  {
+    "category": "antibiotics",
+    "id": "antibiotic2",
+    "name": "Ciprofloxacin",
+    "price": 10,
+    "desc": "Broad-spectrum antibiotic for various infections.",
+    "img": "images/Medicines/Ciprofloxacine.jpg"
+  },
+  {
+    "category": "antibiotics",
+    "id": "antibiotic3",
+    "name": "Doxycycline",
+    "price": 9,
+    "desc": "Effective against a wide range of bacterial infections.",
+    "img": "images/Medicines/Doxycycline.jpg"
+  },
+  {
+    "category": "antibiotics",
+    "id": "antibiotic4",
+    "name": "Azithromycin",
+    "price": 12,
+    "desc": "Commonly used for respiratory infections.",
+    "img": "images/Medicines/Azithromycin.jpg"
+  },
+  {
+    "category": "antibiotics",
+    "id": "antibiotic5",
+    "name": "Clindamycin",
+    "price": 11,
+    "desc": "Treats skin and soft tissue infections.",
+    "img": "images/Medicines/Clindamycin.jpg"
+  },
+  {
+    "category": "antibiotics",
+    "id": "antibiotic6",
+    "name": "Metronidazole",
+    "price": 10,
+    "desc": "Effective against anaerobic bacteria and protozoa.",
+    "img": "images/Medicines/Metronidazole.jpg"
+  },
+  {
+    "category": "antidepressants",
+    "id": "antidepressant1",
+    "name": "Fluoxetine",
+    "price": 15,
+    "desc": "Used to treat depression and anxiety.",
+    "img": "images/Medicines/Fluoxetine.jpg"
+  },
+  {
+    "category": "antidepressants",
+    "id": "antidepressant2",
+    "name": "Sertraline",
+    "price": 18,
+    "desc": "Commonly used for depression and PTSD.",
+    "img": "images/Medicines/Sertraline.jpg"
+  },
+  {
+    "category": "antidepressants",
+    "id": "antidepressant3",
+    "name": "Citalopram",
+    "price": 17,
+    "desc": "Effective for major depressive disorder.",
+    "img": "images/Medicines/Citalopram.jpg"
+  },
+  {
+    "category": "antidepressants",
+    "id": "antidepressant4",
+    "name": "Amitriptyline",
+    "price": 20,
+    "desc": "Also used for chronic pain management.",
+    "img": "images/Medicines/Amitriptyline.jpg"
+  },
+  {
+    "category": "antidepressants",
+    "id": "antidepressant5",
+    "name": "Venlafaxine",
+    "price": 22,
+    "desc": "Treats depression and social anxiety.",
+    "img": "images/Medicines/Venlafaxine.jpg"
+  },
+  {
+    "category": "antidepressants",
+    "id": "antidepressant6",
+    "name": "Duloxetine",
+    "price": 25,
+    "desc": "Effective for generalized anxiety and pain.",
+    "img": "images/Medicines/Duloxetine.jpg"
+  },
+  {
+    "category": "antihistamines",
+    "id": "antihistamine1",
+    "name": "Cetirizine",
+    "price": 8,
+    "desc": "Relieves hay fever and allergy symptoms.",
+    "img": "images/Medicines/Cetirizine.jpg"
+  },
+  {
+    "category": "antihistamines",
+    "id": "antihistamine2",
+    "name": "Loratadine",
+    "price": 9,
+    "desc": "Non-drowsy formula for allergies.",
+    "img": "images/Medicines/Loratadine.jpg"
+  },
+  {
+    "category": "antihistamines",
+    "id": "antihistamine3",
+    "name": "Diphenhydramine",
+    "price": 7,
+    "desc": "Effective for allergies and insomnia.",
+    "img": "images/Medicines/Diphenhydramine.jpg"
+  },
+  {
+    "category": "antihistamines",
+    "id": "antihistamine4",
+    "name": "Fexofenadine",
+    "price": 10,
+    "desc": "Treats seasonal allergic rhinitis.",
+    "img": "images/Medicines/Fexofenadine.jpg"
+  },
+  {
+    "category": "antihypertensives",
+    "id": "antihypertensive1",
+    "name": "Lisinopril",
+    "price": 20,
+    "desc": "Used for high blood pressure and heart failure.",
+    "img": "images/Medicines/Lisinopril.jpg"
+  },
+  {
+    "category": "antihypertensives",
+    "id": "antihypertensive2",
+    "name": "Amlodipine",
+    "price": 18,
+    "desc": "Effective calcium channel blocker.",
+    "img": "images/Medicines/Amlodipine.jpg"
+  },
+  {
+    "category": "antihypertensives",
+    "id": "antihypertensive3",
+    "name": "Losartan",
+    "price": 22,
+    "desc": "Angiotensin receptor blocker for hypertension.",
+    "img": "images/Medicines/Losartan.jpg"
+  },
+  {
+    "category": "antihypertensives",
+    "id": "antihypertensive4",
+    "name": "Metoprolol",
+    "price": 25,
+    "desc": "Beta-blocker used for hypertension and angina.",
+    "img": "images/Medicines/Metoprolol.jpg"
+  },
+  {
+    "category": "antihypertensives",
+    "id": "antihypertensive5",
+    "name": "Hydrochlorothiazide",
+    "price": 15,
+    "desc": "Diuretic commonly prescribed for hypertension.",
+    "img": "images/Medicines/Hydrochlorothiazide.jpg"
+  },
+  {
+    "category": "antihypertensives",
+    "id": "antihypertensive6",
+    "name": "Ramipril",
+    "price": 23,
+    "desc": "ACE inhibitor for high blood pressure and heart failure.",
+    "img": "images/Medicines/Ramipril.jpg"
+  }
+]

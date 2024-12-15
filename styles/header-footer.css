@@ -67,8 +67,7 @@ header .search-bar {
     margin-right: 100px;
     position: absolute;
     right: 0;
-    width: auto;
-    
+    width: auto; 
 }
 
 .search-bar input[type="text"] {

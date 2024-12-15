@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#orderPage {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #0274a9;
+  color: #fff;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0274a9;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #025f8c;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#thankYouMessage {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive Design for iPhone and Tablets */
+
+/* For Mobile Phones (max-width: 600px) */
+@media screen and (max-width: 600px) {
+  #orderPage {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  table {
+    margin-bottom: 15px;
+  }
+
+  th, td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  form {
+    gap: 10px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  #thankYouMessage {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+
+/* For Tablets (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  #orderPage {
+    padding: 20px;
+    margin: 15px;
+  }
+
+  table {
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+
+  form {
+    gap: 15px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  input {
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  #thankYouMessage {
+    padding: 20px;
+    font-size: 16px;
+  }
+}

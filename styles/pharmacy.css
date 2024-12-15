@@ -1,70 +1,195 @@
-input[type="number"],
-input[type="radio"] {
-    margin-bottom: 15px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
-.radio-group {
-    display: flex;
-    margin-bottom: 15px;
+header {
+  background-color: #0274a9;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
-.radio-group label {
-    margin-right: 20px;
+main {
+  padding: 20px;
 }
 
-footer {
-    margin-top: 210px;
+#medicine-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.category {
+  width: 25%;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.medicine-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.medicine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.medicine img {
+  width: 50px;
+  height: 50px;
+}
+
+#cart {
+  margin-top: 30px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  background-color: #0274a9;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #025e8c;
 }
 
 
+#favourites-section {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #0274a9;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#favourites-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+}
+
+#favourites-table th {
+  background-color: #0274a9;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+#favourites-table td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  text-align: left;
+  font-size: 14px;
+}
+
+#favourites-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+#favourites-items tr td {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
+/* Responsive Design for Mobile and Tablets */
 @media screen and (max-width: 768px) {
+ 
+  #medicine-categories {
+    flex-direction: column; 
+    align-items: center;
+  }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="number"],
-    input[type="radio"] {
-        padding: 12px;
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
+  .category {
+    width: 90%; 
+    margin-bottom: 20px;  
+  }
 
-    .radio-group {
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
+  
+  #favourites-table {
+    font-size: 12px;
+  }
 
-    .radio-group label {
-        margin-bottom: 10px;
-        margin-right: 0;
-    }
+  #favourites-table th, #favourites-table td {
+    padding: 8px;
+  }
 
+  
+  button {
+    padding: 8px;
+  }
+
+  
+  #cart {
+    padding: 15px;
+  }
+
+  
+  .medicine {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .medicine img {
+    width: 300px;
+    height: 250px;
+  }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
 
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"],
-    input[type="number"],
-    input[type="radio"] {
-        padding: 12px;
-        font-size: 14px;
-    }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  .category {
+    width: 45%; 
+  }
 
-    .radio-group {
-        flex-direction: column;
-    }
+  
+  #favourites-table th, #favourites-table td {
+    padding: 9px;
+  }
 
-    .radio-group label {
-        margin-bottom: 10px;
-        margin-right: 0;
-    }
+  .medicine img {
+    width: 45px;
+    height: 45px;
+  }
 
-
+  
+  button {
+    padding: 9px;
+  }
 }
+
 

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Page</title>
+  <link rel="stylesheet" href="styles/order.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16(3)/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16(3)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16(3)/favicon-16x16.png">
+  <link rel="manifest" href="favicon_package_v0.16(3)/site.webmanifest">
+  <link rel="mask-icon" href="favicon_package_v0.16(3)/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff"> 
+</head>
+
+<body>
+  <div id="orderPage">
+    <h1>Your Order</h1>
+    <table id="orderTable">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+    <p>Total Price: $<span id="orderTotalPrice">0.00</span></p>
+
+    <button id="addToFavorites">Add to Favorites</button>
+    <button id="applyFavorites">Apply Favorites</button>
+
+    <form id="deliveryForm">
+        <h2>Enter Delivery Details</h2>
+        <label>
+            Name: 
+            <input type="text" id="userName" required>
+        </label>
+        <label>
+            Address: 
+            <input type="text" id="userAddress" required>
+        </label>
+        <label>
+            Phone Number: 
+            <input type="number" id="userNum" required>
+        </label>
+        <label>
+            Payment Method: 
+            <select id="paymentMethod" required>
+                <option value="" disabled selected>Select Payment Method</option>
+                <option value="Cash">Cash</option>
+                <option value="Card">Card</option>
+            </select>
+        </label>
+    
+        <div id="cardDetails" style="display: none;">
+            <label>
+                Card Number: 
+                <input type="text" id="cardNumber" pattern="\\d{16}" placeholder="16-digit card number">
+            </label>
+            <label>
+                Expiry Date: 
+                <input type="text" id="cardExpiry" placeholder="MM/YY">
+            </label>
+            <label>
+                CVV: 
+                <input type="text" id="cardCVV" pattern="\\d{3}" placeholder="3-digit CVV">
+            </label>
+        </div>
+    
+        <button type="button" id="payButton">Pay</button>
+    </form>
+    
+  </div>
+
+  <div id="thankYouMessage" style="display:none;">
+    <h1>Thank You for Your Purchase!</h1>
+    <p>Your order will be delivered on <span id="deliveryDate"></span>.</p>
+  </div>
+
+  <script src="scripts/order.js"></script>
+</body>
+</html>
